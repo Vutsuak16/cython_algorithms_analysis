@@ -786,7 +786,7 @@ static const char __pyx_k_range[] = "range";
 static const char __pyx_k_write[] = "write";
 static const char __pyx_k_target[] = "target";
 static const char __pyx_k_pattern[] = "pattern";
-static const char __pyx_k_pattern_python_txt[] = "pattern_python.txt";
+static const char __pyx_k_pattern_txt[] = "pattern.txt";
 static const char __pyx_k_C_Users_deolal_Desktop_cython_pr[] = "C:\\Users\\deolal\\Desktop\\cython_practice\\cython_algorithms_analysis\\pattern\\pattern.pyx";
 static PyObject *__pyx_kp_s_;
 static PyObject *__pyx_kp_s_C_Users_deolal_Desktop_cython_pr;
@@ -798,7 +798,7 @@ static PyObject *__pyx_n_s_k;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_open;
 static PyObject *__pyx_n_s_pattern;
-static PyObject *__pyx_kp_s_pattern_python_txt;
+static PyObject *__pyx_kp_s_pattern_txt;
 static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_rows;
 static PyObject *__pyx_n_s_target;
@@ -814,7 +814,7 @@ static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_codeobj__7;
 
 /* "pattern.pyx":2
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):             # <<<<<<<<<<<<<<
  * 	for k in a:
  * 		for i in range(1,k):
@@ -854,7 +854,7 @@ static PyObject *__pyx_pf_7pattern_rows(CYTHON_UNUSED PyObject *__pyx_self, PyOb
   __Pyx_RefNannySetupContext("rows", 0);
 
   /* "pattern.pyx":3
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):
  * 	for k in a:             # <<<<<<<<<<<<<<
  * 		for i in range(1,k):
@@ -1075,7 +1075,7 @@ static PyObject *__pyx_pf_7pattern_rows(CYTHON_UNUSED PyObject *__pyx_self, PyOb
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "pattern.pyx":3
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):
  * 	for k in a:             # <<<<<<<<<<<<<<
  * 		for i in range(1,k):
@@ -1085,7 +1085,7 @@ static PyObject *__pyx_pf_7pattern_rows(CYTHON_UNUSED PyObject *__pyx_self, PyOb
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "pattern.pyx":2
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):             # <<<<<<<<<<<<<<
  * 	for k in a:
  * 		for i in range(1,k):
@@ -1144,7 +1144,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_open, __pyx_k_open, sizeof(__pyx_k_open), 0, 0, 1, 1},
   {&__pyx_n_s_pattern, __pyx_k_pattern, sizeof(__pyx_k_pattern), 0, 0, 1, 1},
-  {&__pyx_kp_s_pattern_python_txt, __pyx_k_pattern_python_txt, sizeof(__pyx_k_pattern_python_txt), 0, 0, 1, 0},
+  {&__pyx_kp_s_pattern_txt, __pyx_k_pattern_txt, sizeof(__pyx_k_pattern_txt), 0, 0, 1, 0},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
   {&__pyx_n_s_rows, __pyx_k_rows, sizeof(__pyx_k_rows), 0, 0, 1, 1},
   {&__pyx_n_s_target, __pyx_k_target, sizeof(__pyx_k_target), 0, 0, 1, 1},
@@ -1187,16 +1187,16 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__4);
 
   /* "pattern.pyx":1
- * target = open("pattern_python.txt", 'w')             # <<<<<<<<<<<<<<
+ * target = open("pattern.txt", 'w')             # <<<<<<<<<<<<<<
  * def rows(a):
  * 	for k in a:
  */
-  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_kp_s_pattern_python_txt, __pyx_n_s_w); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(2, __pyx_kp_s_pattern_txt, __pyx_n_s_w); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
   /* "pattern.pyx":2
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):             # <<<<<<<<<<<<<<
  * 	for k in a:
  * 		for i in range(1,k):
@@ -1313,7 +1313,7 @@ PyMODINIT_FUNC PyInit_pattern(void)
   #endif
 
   /* "pattern.pyx":1
- * target = open("pattern_python.txt", 'w')             # <<<<<<<<<<<<<<
+ * target = open("pattern.txt", 'w')             # <<<<<<<<<<<<<<
  * def rows(a):
  * 	for k in a:
  */
@@ -1323,7 +1323,7 @@ PyMODINIT_FUNC PyInit_pattern(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "pattern.pyx":2
- * target = open("pattern_python.txt", 'w')
+ * target = open("pattern.txt", 'w')
  * def rows(a):             # <<<<<<<<<<<<<<
  * 	for k in a:
  * 		for i in range(1,k):
@@ -1334,7 +1334,7 @@ PyMODINIT_FUNC PyInit_pattern(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
   /* "pattern.pyx":1
- * target = open("pattern_python.txt", 'w')             # <<<<<<<<<<<<<<
+ * target = open("pattern.txt", 'w')             # <<<<<<<<<<<<<<
  * def rows(a):
  * 	for k in a:
  */

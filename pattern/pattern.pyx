@@ -6,3 +6,7 @@ def rows(a):
 				target.write("*")
 			target.write("\n")
 
+
+
+#python -m timeit -s "import pattern; import numpy as np; a = [v for v in range(150)]" "pattern.rows(a)"
+
